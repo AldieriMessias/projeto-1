@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TESTE.css">
+    <title>Pedra Papel Tesoura</title>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            PEDRA, PAPEL e TESOURA
+        </h1>
+        <div class="bloco">
+            <div class="player">JOGADOR</div>
+            <div class="pc">PC</div>
+            <div id="contador">
+                0:0
+            </div>
+        </div>
+        
+        <h2>Escolha seu movimento</h2>
+        <div class="buttons">
+            <label>
+                <input type="radio" onclick="reset()" name="play" value="rock" checked>
+                <button class="btn">PEDRA</button>
+            </label>
+            <label>
+                <input type="radio" onclick="reset()" name="play" value="paper">
+                <button class="btn">PAPEL</button>
+            </label>
+            <label>
+                <input type="radio" onclick="reset()" name="play" value="scissor">
+                <button class="btn">TESOURA</button>
+            </label>
+        </div>
+        <div class="bloco">
+            <button id="play" class="btn-play">Jogar</button>
+        </div>
+    </div>
+    <div id="winner" class="container end-screen none ">
+                <h3>Você Ganhou!</h3>
+        <button onclick="newGame()">Jogar Novamente</button>
+    </div>
+    <div id="loser" class="container end-screen none">
+        <h3>Você Perdeu!</h3>
+        <button onclick="newGame()">Jogar Novamente</button>
+    </div>
+    <script src="TESTE.js"></script>
+</body>
+</html>
