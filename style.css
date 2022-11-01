@@ -35,7 +35,7 @@ h1{
     border-radius: 10px;
 }
 
-.bloco{
+.bloco , .bloco2{
     width: 100%;
     display: flex;
     align-items: center;
@@ -43,6 +43,21 @@ h1{
     position: relative;
     padding-bottom: 25px;
 }
+
+.bloco2{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    background-color: grey;
+    height: 200px;
+    margin-bottom: 35px;
+}
+
+#pc2{
+    display: flex;
+    justify-content: center;
+}
+
 
 .player , .pc {
     border-radius: 10px;
@@ -115,6 +130,9 @@ h1{
 
 }
 
+/* .bloco2{
+    background-color: grey;
+} */
 
 
 .none{
