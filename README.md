@@ -10,3 +10,11 @@ Papel ganha de pedra.
 No jogo em questão será contra o computador e quando o player ou o PC chegarem em 5 pontos o jogo é finalizado com a vitória do respectivo.
 Cada vitória de round conta 1 ponto e empate não conta ponto para ninguém.
 
+link do jogo:
+
+https://aldierimessias.github.io/projeto-1/
+
+
+link do slide:
+
+https://slides.com/aldieri/deck
